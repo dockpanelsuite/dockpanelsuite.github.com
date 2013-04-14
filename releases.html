@@ -29,11 +29,11 @@
         <h3>DockPanel Suite 2.8.0 (14 Apr 2013)</h3>
 
         <p>Changelog:
-        <pre><code>- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/69">Issue #69</a>: Restored support for using different DockPanels on multiple UI threads.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/78">Issue #78</a>: Fixed ObjectDisposedException in the sample project.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/82">Issue #82</a>: Fixed docking indicators when DockPanel's parent is TopMost.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/91">Issue #91</a>: Added ability to disable doubleclick to dock a FloatWindow.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/119">Issue #119</a>: AutoHide content now inherits the sizing behavior (either fixed or percentage based) of the dock area it is located in.
+<pre><code>- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/69">Issue #69</a>: Restored support for using different DockPanels on multiple UI threads.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/78">Issue #78</a>: Fixed ObjectDisposedException in the sample project.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/82">Issue #82</a>: Fixed docking indicators when DockPanel's parent is TopMost.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/91">Issue #91</a>: Added ability to disable doubleclick to dock a FloatWindow.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/119">Issue #119</a>: AutoHide content now inherits the sizing behavior (either fixed or percentage based) of the dock area it is located in.
 
         <p style="text-align:right">[<a href="https://github.com/dockpanelsuite/binaries/raw/master/DockPanel_2_8_0.zip">Download 2.8.0</a>]</p>
 
@@ -41,18 +41,18 @@
       <h3>DockPanel Suite 2.7.0 (04 Sep 2012)</h3>
 
         <p>Changelog:
-        <pre><code>- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/11">Issue #11</a>: Corrected an issue that prevented the docking indicator from being shown when docking a float window while the cursor was in the float window to be docked.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/16">Issue #16</a>: Fixed a stack overflow that occurs on Mono at shutdown due to an existing discrepency in Mono's implementation of Control.Dispose().
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/22">Issue #22</a>: DockContent.TabText is now localizable.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/28">Issue #28</a>: Closing a tab via middle click no longer activates the content first, which was unnecessarily time consuming and could result in the active tab changing from what was previously active.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/31">Issue #31</a>: SupportDeeplyNestedControls is now turned off by default. (BREAKING CHANGE!)
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/35">Issue #35</a>: The icon of a FloatWindow will reflect the active content. Note that icons are not visible on FloatWindows by default but can be made visible via the Extender functionality (see the cookbook on the wiki for details).
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/40">Issue #40</a>: The middle mouse button now closes tabs embedded in a FloatWindow.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/42">Issue #42</a>: Added support for .NET Client Profile.
-        - <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/46">Issue #46</a>: Fixed docking indicators not-visible issue for most known scenarios.
+<pre><code>- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/11">Issue #11</a>: Corrected an issue that prevented the docking indicator from being shown when docking a float window while the cursor was in the float window to be docked.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/16">Issue #16</a>: Fixed a stack overflow that occurs on Mono at shutdown due to an existing discrepency in Mono's implementation of Control.Dispose().
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/22">Issue #22</a>: DockContent.TabText is now localizable.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/28">Issue #28</a>: Closing a tab via middle click no longer activates the content first, which was unnecessarily time consuming and could result in the active tab changing from what was previously active.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/31">Issue #31</a>: SupportDeeplyNestedControls is now turned off by default. (BREAKING CHANGE!)
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/35">Issue #35</a>: The icon of a FloatWindow will reflect the active content. Note that icons are not visible on FloatWindows by default but can be made visible via the Extender functionality (see the cookbook on the wiki for details).
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/40">Issue #40</a>: The middle mouse button now closes tabs embedded in a FloatWindow.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/42">Issue #42</a>: Added support for .NET Client Profile.
+- <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/46">Issue #46</a>: Fixed docking indicators not-visible issue for most known scenarios.
 
-        BREAKING CHANGES
-        - Under <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/31">Issue #31</a>, by changing the default value of SupportDeeplyNestedControls to false, if a DockPanel previously relied on this functionality being enabled it will need to be manually enabled again following the upgrade to 2.7.</code></pre>
+BREAKING CHANGES
+- Under <a href="https://github.com/dockpanelsuite/dockpanelsuite/issues/31">Issue #31</a>, by changing the default value of SupportDeeplyNestedControls to false, if a DockPanel previously relied on this functionality being enabled it will need to be manually enabled again following the upgrade to 2.7.</code></pre>
 
         <p style="text-align:right">[<a href="https://github.com/dockpanelsuite/binaries/raw/master/DockPanel_2_7_0.zip">Download 2.7.0</a>]</p>
 
